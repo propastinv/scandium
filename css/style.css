@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro #intro-carousel::before {
   content: '';
-  background-color: rgba(255, 255, 255, 0.7);
+  /*background-color: rgba(255, 255, 255, 0.7);*/
   position: absolute;
   height: 100%;
   width: 100%;
@@ -583,13 +583,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  padding: 30px 0 0 0;
+  padding: 20px 0 0 0;
+  background-color: #fff;
 }
 
 #services .box {
-  padding: 40px;
-  margin-bottom: 40px;
-  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  padding: 20px;
+  /*margin-bottom: 10px;*/
+  box-shadow: 0px 0px 0px rgba(73, 78, 92, 0.1);
   background: #fff;
   transition: 0.4s;
 }
@@ -597,8 +598,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .box:hover {
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
 }
 
 #services .box .icon {
@@ -689,7 +690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Our Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: #f2f5f8;
   padding: 30px 0;
 }
 
@@ -1100,3 +1101,45 @@ width: 200px;
   margin-bottom: 0px;
 }
 
+#depico{
+  width: 25%;
+  padding-top: 10px;
+}
+
+#deptext h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #00323e;
+}
+
+#deptext:hover h2{
+  color: #00222b;
+}
+
+.dep img:hover{
+  color: #00222b;
+}
+
+.dfep{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#footer{
+  background: #00323e;
+  color: #c5c9c7;
+}
+
+#footer .credits{
+  color: #c5c9c7;
+}
+
+.department-opisanie{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sect img{
+  max-width: 200px;
+}
