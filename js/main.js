@@ -142,7 +142,7 @@ jQuery(document).ready(function( $ ) {
     autoplay: true,
     dots: true,
     loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 5 }
+    responsive: { 0: { items: 2 }, 768: { items: 3 }, 900: { items: 4 }
     }
   });
 
