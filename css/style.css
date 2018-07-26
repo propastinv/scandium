@@ -1184,14 +1184,10 @@ width: 200px;
 }
 
 .parallax-dshkm { 
-  /* The image used */
   background-image: url("../military/heavy/img/desert.jpg");
-
-  /* Set a specific height */
   height: 90%;
   color: white;
-
-  /* Create the parallax scrolling effect */
+  /* Parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1204,4 +1200,12 @@ width: 200px;
 
 #btn-primary{
   background-color: #00323e;
+}
+
+#small-arms{
+  padding: 30px 0;
+}
+
+#civil{
+  padding: 30px 0px;
 }
