@@ -1017,13 +1017,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#contact #google-map {
-  height: 290px;
-  margin-bottom: 20px;
+#google-map {
+  /*height: 500px;*/
+  height: 60vh;
+  position: relative;
 }
 
 @media (max-width: 576px) {
-  #contact #google-map {
+  #google-map {
     margin-top: 20px;
   }
 }
@@ -1208,4 +1209,21 @@ width: 200px;
 
 #civil{
   padding: 30px 0px;
+}
+
+.section-header .contact{
+  color: #c5c9c7;
+}
+
+.parallax-ammo { 
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: url("../military/heavy/img/desert.jpg");
+  height: 90%;
+  color: white;
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
